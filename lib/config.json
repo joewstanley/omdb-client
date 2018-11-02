@@ -1,0 +1,67 @@
+{
+  "dataHost": "http://www.omdbapi.com",
+  "imgHost": "http://img.omdbapi.com",
+  "minPage": 1,
+  "maxPage": 100,
+  "minYear": 1900,
+  "maxYear": 9999,
+  "resultsPerPage": 10,
+  "resultTypes": [
+    "movie",
+    "series",
+    "episode"
+  ],
+  "plotTypes": [
+    "short",
+    "full"
+  ],
+  "map": {
+    "search": {
+      "key": "apikey",
+      "search": "s",
+      "type": "type",
+      "year": "y",
+      "page": "page"
+    },
+    "get": {
+      "key": "apikey",
+      "id": "i",
+      "title": "t",
+      "season": "season",
+      "episode": "episode",
+      "type": "type",
+      "year": "y",
+      "plot": "plot"
+    },
+    "poster": {
+      "key": "apikey",
+      "id": "i"
+    }
+  },
+  "format": {
+    "search": "array",
+    "year": "year",
+    "poster": "poster",
+    "totalResults": "integer",
+    "released": "date",
+    "runtime": "integer",
+    "genre": "list",
+    "director": "list",
+    "writer": "list",
+    "actors": "list",
+    "language": "list",
+    "country": "list",
+    "ratings": "array",
+    "value": "ratio",
+    "metascore": "integer",
+    "imdbRating": "float",
+    "imdbVotes": "integer",
+    "dvd": "date",
+    "boxOffice": "money",
+    "totalSeasons": "integer",
+    "season": "integer",
+    "episodes": "array",
+    "episode": "integer",
+    "response": "boolean"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "omdb-client",
+  "version": "0.1.0",
+  "description": "A Promise-based node.js client for the OMDb API at http://www.omdbapi.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstanley2/omdb-api.git"
+  },
+  "keywords": [
+    "omdb",
+    "omdbapi",
+    "imdb",
+    "client",
+    "api"
+  ],
+  "author": {
+    "name": "Joe Stanley",
+    "url": "https://github.com/jstanley2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jstanley2/omdb-api/issues"
+  },
+  "homepage": "https://github.com/jstanley2/omdb-api#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "joi": "^14.0.3",
+    "lodash": "^4.17.11"
+  }
+}
